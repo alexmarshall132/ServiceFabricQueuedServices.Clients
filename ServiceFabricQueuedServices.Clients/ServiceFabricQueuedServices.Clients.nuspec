@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ServiceFabricQueuedServices.Clients</id>
+    <version>$version$</version>
+    <title>ServiceFabricQueuedServices.Clients</title>
+    <authors>Alex Marshall</authors>
+    <owners>Alex Marshall</owners>
+    <licenseUrl>https://github.com/alexmarshall132/ServiceFabricQueuedServices.Clients/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/alexmarshall132/ServiceFabricQueuedServices.Clients/</projectUrl>
+    <iconUrl>https://github.com/alexmarshall132/ServiceFabricQueuedServices.Clients/</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Helper library for connecting to queued services via Azure Service Bus within Service Fabric</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>ServiceFabric WCF WcfCommunicationClient ServiceBus</tags>
+  </metadata>
+</package>
