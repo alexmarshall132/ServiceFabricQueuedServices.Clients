@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{7B663EFA-2BFE-4568-BED0-A59F32A5CFB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceFabricQueuedServices.Clients", "ServiceFabricQueuedServices.Clients\ServiceFabricQueuedServices.Clients.csproj", "{0A4F9B3A-6D88-41D0-9414-4C0FBD33E930}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A4F9B3A-6D88-41D0-9414-4C0FBD33E930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A4F9B3A-6D88-41D0-9414-4C0FBD33E930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A4F9B3A-6D88-41D0-9414-4C0FBD33E930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A4F9B3A-6D88-41D0-9414-4C0FBD33E930}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A4F9B3A-6D88-41D0-9414-4C0FBD33E930} = {7B663EFA-2BFE-4568-BED0-A59F32A5CFB2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F71FE22-7FC9-49BD-8B5D-B380B5EFF6DF}
+	EndGlobalSection
+EndGlobal
