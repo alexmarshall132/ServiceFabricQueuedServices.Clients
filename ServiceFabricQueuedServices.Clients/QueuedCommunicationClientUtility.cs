@@ -103,7 +103,7 @@
 	    /// <exception cref="ArgumentException">
 	    /// Thrown if any string parameters are null or empty.
 	    /// </exception>
-	    public static QueuedWcfCommunicationClientFactory<TServiceContract> CreateCommunicationClientFactory<TServiceContract>(NetMessagingBinding netMessagingBinding, string sharedAccessKeyName, string sharedAccessKey, ServicePartitionResolver servicePartitionResolver, IEnumerable<IExceptionHandler> exceptionHandlers = null) where TServiceContract : class
+	    public static QueuedWcfCommunicationClientFactory<TServiceContract> CreateCommunicationClientFactory<TServiceContract>(NetMessagingBinding netMessagingBinding, string sharedAccessKeyName, string sharedAccessKey, IServicePartitionResolver servicePartitionResolver, IEnumerable<IExceptionHandler> exceptionHandlers = null) where TServiceContract : class
 		{
 			if (netMessagingBinding == null)
 			{
