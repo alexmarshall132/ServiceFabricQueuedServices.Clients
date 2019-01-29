@@ -1,17 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.ServiceModel;
-using System.Threading;
-using System.Threading.Tasks;
-using Microsoft.ServiceBus;
-using Microsoft.ServiceBus.Messaging;
-using Microsoft.ServiceFabric.Services.Client;
-using Microsoft.ServiceFabric.Services.Communication.Client;
-using Microsoft.ServiceFabric.Services.Communication.Wcf.Client;
-
-namespace ServiceFabricQueuedServices.Clients
+﻿namespace ServiceFabricQueuedServices.Clients
 {
+	using System;
+	using System.Collections.Generic;
+	using System.Globalization;
+	using System.ServiceModel;
+	using System.Threading;
+	using System.Threading.Tasks;
+
+	using Microsoft.ServiceBus;
+	using Microsoft.ServiceBus.Messaging;
+	using Microsoft.ServiceFabric.Services.Client;
+	using Microsoft.ServiceFabric.Services.Communication.Client;
+	using Microsoft.ServiceFabric.Services.Communication.Wcf.Client;
+
+	/// <summary>
+	/// Implementation of <see cref="WcfCommunicationClientFactory{TServiceContract}"/> that supports queued services
+	/// via Azure Service Bus.
+	/// </summary>
+	/// <typeparam name="TServiceContract">
+	/// The type of the Service contract.
+	/// </typeparam>
 	public class QueuedWcfCommunicationClientFactory<TServiceContract> : WcfCommunicationClientFactory<TServiceContract> where TServiceContract : class
 	{
 		private readonly ChannelFactory<TServiceContract> factory;

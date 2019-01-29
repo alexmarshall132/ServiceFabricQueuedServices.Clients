@@ -1,12 +1,13 @@
-﻿using System;
-using System.Threading;
-using System.Threading.Tasks;
-using Microsoft.ServiceFabric.Services.Client;
-using Microsoft.ServiceFabric.Services.Communication.Client;
-using Microsoft.ServiceFabric.Services.Communication.Wcf.Client;
-
-namespace ServiceFabricQueuedServices.Clients
+﻿namespace ServiceFabricQueuedServices.Clients
 {
+	using System;
+	using System.Threading;
+	using System.Threading.Tasks;
+
+	using Microsoft.ServiceFabric.Services.Client;
+	using Microsoft.ServiceFabric.Services.Communication.Client;
+	using Microsoft.ServiceFabric.Services.Communication.Wcf.Client;
+
 	/// <summary>
 	/// Utility methods for <see cref="WcfCommunicationClient{TServiceContract}"/> instances to be used
 	/// to connect to stateless services.
